@@ -1,0 +1,96 @@
+body {
+  background-color: #d3d8da;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+}
+
+.header__title {
+  font-size: 28px;
+}
+.header__subtitle {
+  color: rgb(89, 36, 124);
+}
+
+main {
+  border: 1px solid darkblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.skills ol {
+  list-style: none;
+}
+
+.wow {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.separator {
+  width: 50%;
+  height: 3px;
+  background-color: rgb(64, 161, 97);
+}
+
+.video iframe {
+  width: 400px;
+  height: 240px;
+  max-width: 100%;
+}
+
+.ed__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ed__table th,
+.ed__table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.quote {
+  font-size: 32px;
+}
+
+.form {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.form__control {
+  width: 100%;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+.form__submit {
+  display: block;
+  margin: 0 auto;
+}
+
+.control--text {
+  width: 70%;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: black;
+}
